@@ -1,0 +1,19 @@
+{
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.16.9",
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.6.3",
+    "tailwindcss": "file:../../tailwindcss/dist/tailwindcss.tgz",
+    "@tailwindcss/vite": "file:../../tailwindcss/dist/tailwindcss-vite.tgz"
+  }
+}
