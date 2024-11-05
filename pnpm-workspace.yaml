@@ -2,3 +2,4 @@ packages:
   - sveltekit
   - astro
   - remix
+  - nuxt
