@@ -3,3 +3,4 @@ packages:
   - astro
   - remix
   - nuxt
+  - solid
