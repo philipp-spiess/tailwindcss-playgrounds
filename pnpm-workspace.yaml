@@ -1,6 +1,7 @@
 packages:
-  - sveltekit
   - astro
-  - remix
+  - nextjs
   - nuxt
+  - remix
   - solid
+  - sveltekit
