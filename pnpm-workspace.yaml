@@ -5,3 +5,4 @@ packages:
   - remix
   - solid
   - sveltekit
+  - vue
