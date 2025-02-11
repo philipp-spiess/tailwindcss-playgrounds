@@ -3,6 +3,7 @@ packages:
   - astro
   - nextjs
   - nuxt
+  - react-router
   - remix
   - solid
   - sveltekit

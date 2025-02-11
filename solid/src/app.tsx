@@ -11,7 +11,7 @@ export default function App() {
         <MetaProvider>
           <Title>SolidStart - Basic</Title>
           <Suspense>
-            <div class="p-2">{props.children}</div>
+            <div class="dark:underline">{props.children}</div>
           </Suspense>
         </MetaProvider>
       )}

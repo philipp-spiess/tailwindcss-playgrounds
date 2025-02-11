@@ -1,12 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import HelloWorld from "../components/hello";
 ---
 
 <Layout title="Welcome to Astro.">
-  <h1 class="font-bold">Welcome to Astro</h1>
-  <p>
-    Visit <a href="https://docs.astro.build/en/getting-started"
-      >docs.astro.build/en/getting-started</a
-    > to read the documentation
-  </p>
+  <HelloWorld client:only="react" />
 </Layout>
