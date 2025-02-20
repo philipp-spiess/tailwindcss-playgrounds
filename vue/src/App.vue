@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -21,9 +20,11 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+@reference "tailwindcss";
 header {
   line-height: 1.5;
   max-height: 100vh;
+  @apply ml-100;
 }
 
 .logo {
