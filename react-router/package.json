@@ -18,14 +18,14 @@
   },
   "devDependencies": {
     "@react-router/dev": "^7.1.5",
-    "@types/node": "^20",
+    "@tailwindcss/vite": "file:../../tailwindcss/dist/tailwindcss-vite.tgz",
+    "@types/node": "^22.13.4",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
     "react-router-devtools": "^1.1.0",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
-    "vite-tsconfig-paths": "^5.1.4",
     "tailwindcss": "file:../../tailwindcss/dist/tailwindcss.tgz",
-    "@tailwindcss/vite": "file:../../tailwindcss/dist/tailwindcss-vite.tgz"
+    "typescript": "^5.7.2",
+    "vite": "^6.1.1",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
